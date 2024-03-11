@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-wavify": "^1.10.0",
+    "siriwavejs": "^3.0.0"
+  }
+}

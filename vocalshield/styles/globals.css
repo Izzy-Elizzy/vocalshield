@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+.background {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  color: azure;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+  z-index: 0;
+}
+
+.padding-container {
+  padding: 1.2rem 2.4rem;
+  height: 100%;
+}
+
+.waves {
+  width: 100%;
+  position: absolute;
+  scale: 2;
+  z-index: -1;
+}
+.waves-1 {
+  top: 50%;
+  opacity: 30%;
+}
+.waves-2 {
+  top: 55%;
+  opacity: 40%;
+}
+.waves-3 {
+  top: 60%;
+  opacity: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 4.8rem;
+  cursor: pointer;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.6rem;
+  align-self: center;
+}
+
+.header-item {
+  padding: 0rem 2.4rem;
+  font-weight:100;
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.try-button {
+  background-color: #323232; /* Green */
+  border: none;
+  color: white;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 20rem;
+  cursor: pointer;
+}
+
+.hero-section {
+  margin-top: 10rem;
+}
+
+.hero-slogan {
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #F5F5F5;
+}
+
+.hero-hook {
+  font-size: 8.4rem;
+  color: #F5F5F5;
+  margin-top: 6.4rem;
+  font-weight: 500;
+}
+
+.download-button {
+  background-color: #323232; /* Green */
+  color: white;
+  padding: 2rem 3.2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  border: none;
+  max-width: 60rem;
+  margin-top: 4.8rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.download-text {
+  font-size: 3.2rem;
+  color: #EEEEEE;
+  margin-bottom: 1rem;
+}
+
+.model-text {
+  font-size: 1.6rem;
+  color: #C2C2C2;
+}
+
+.version-text {
+  font-size: 1.2rem;
+  color: #C2C2C2;
+  padding-top: 0.3rem;
+}
+
+.download-icon {
+  background-image: url("../media/vector.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  height: 8rem;
+  width: 10rem;
+}
+
+
+.presentation-container {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+}
+
+
+.presentation {
+  margin-top: 3.6rem;
+  height: 100%;
+  width: 100%;
+}
+
+.grid-container {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns with equal width */
+  grid-gap: 20px; /* Adjust as needed */
+  }
+  
+  .grid-item {
+  /* Styles for grid items */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  }
+  
+  .bio-pic {
+      width: 70%;
+      height: 60%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      aspect-ratio: 2/4;
+      border-radius: 1rem;
+      -webkit-filter: grayscale(90%);
+  }
+
+  .izzy-pic {
+    background-image: url("../media/izzy.jpg");
+  }
+
+  .durel-pic {
+    background-image: url("../media/durel.jpg");
+  }
+
+  .darrel-pic {
+    background-image: url("../media/darrel.jpg");
+  }
+
+  .joshua-pic {
+    background-image: url("../media/joshua.gif");
+  }
+
+  .names {
+    font-size: 3.6rem;
+    font-weight: 100;
+    margin-bottom: 1.2rem;
+  }
+
+  .bio-text {
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 200;
+    opacity: 70%;
+  }
