@@ -17,6 +17,7 @@ export default function Header() {
           <li onClick={() => router.push('/pitch')} className="header-item">Pitch</li>
           <li onClick={() => router.push('/appendix')} className="header-item">Appendix</li>
           <li onClick={() => router.push('/links')} className="header-item">Links</li>
+          <li onClick={() => router.push('/outline')} className="header-item">Outline</li>
         </div>
         <div className="try-button">Try for Free</div>
       </header>

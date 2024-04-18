@@ -6,7 +6,7 @@ const mont = Montserrat({ subsets: ["latin"] });
 export default function Hero() {
     return(
       <div className="hero-section">
-        <p className="hero-slogan">The Future of AI Voice Protection</p>
+        <p className="hero-slogan">The Future of Intelligent Voice Protection</p>
         <h1 className="hero-hook">
           Your Voice.
           <br/>
@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="download-button">
           <p className="download-text">Download</p>
           <p1 className="model-text">
-            Latest Model
+            Latest SDK
           </p1>
           <br/>
           <p className="version-text">Version 1.0</p>

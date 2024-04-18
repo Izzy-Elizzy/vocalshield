@@ -19,10 +19,10 @@ export default function Presentation() {
             webkitallowfullscreen="true"
             className="presentation"
           ></iframe>
-          <div class="download2-container">
+          <div className="download2-container">
             <a
               href="https://drive.google.com/file/d/1JlZ5cXrUX9M9KV6_f9YtCDQ_QomTcKUb/view?usp=sharing"
-              class="download2-button"
+              className="download2-button"
             >
               Click Here to Download PDF
             </a>

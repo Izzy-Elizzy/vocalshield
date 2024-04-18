@@ -10,10 +10,10 @@ export default function Links() {
       <Waves />
       <div className="padding-container">
         <Header />
-        <div class="download2-container">
+        <div className="download2-container">
             <a
               href="https://drive.google.com/file/d/1ULcJypWcVs8Q78mxc9iPsdbE6WX7-6YF/view?usp=sharing"
-              class="download2-button"
+              className="download2-button"
             >
               Click Here to Lab Outline PDF
             </a>

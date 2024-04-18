@@ -13,3 +13,5 @@ export default nextConfig;
 // };
 // /* module.exports = nextConfig*/
 // export default nextConfig;
+
+// Change these before you push to github because it breaks for some reason. 
