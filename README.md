@@ -1,40 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VocalShield Webpage
 
-## Getting Started
+VISIT US AT: https://izzy-elizzy.github.io/vocalshield/
 
-First, run the development server:
+This repository contains the source code for the VocalShield webpage, a user-friendly interface that allows content creators to protect their unique voices from unauthorized cloning and misuse.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Voice Upload**: Creators can easily upload their voice recordings or audio files to the VocalShield platform.
+- **Voice Alteration**: The uploaded voice data is processed using advanced techniques to modify it, preventing unauthorized cloning while maintaining the creator's vocal identity.
+- **User Dashboard**: Creators have access to a personalized dashboard where they can manage their protected voice assets, track usage, and configure settings.
+- **Platform Integration**: The VocalShield webpage provides APIs and documentation for seamless integration with popular content platforms like YouTube, Spotify, and Twitch.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Front-end**: React, React Native
+- **Back-end**: Flask
+- **Database**: PostgreSQL
+- **Deployment**: Docker, Kubernetes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The VocalShield webpage is released under the [MIT License](LICENSE).
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or feedback regarding the VocalShield webpage, please feel free to reach out to us at [vocalshield-web@example.com](mailto:vocalshield-web@example.com).
