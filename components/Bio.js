@@ -38,6 +38,14 @@ export default function BioComponent() {
           coding, and learn new skills.
         </p>
       </div>
+      <div className="bio-item">
+        <div className="bio-pic dima-pic" />
+        <h2 className="names">Dima Bochkarev</h2>
+        <p className="bio-text">
+          I'm Dima, a senior computer science student at ODU. My hobbies are
+          playing video games, drawing, reading and coding.
+        </p>
+      </div>
     </div>
   );
-};
+}

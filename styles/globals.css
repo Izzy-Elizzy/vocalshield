@@ -240,6 +240,10 @@ table {
     background-image: url("../media/joshua.gif");
   }
 
+  .dima-pic {
+    background-image: url("../media/dima.jpg");
+  }
+
   .names {
     font-size: 3.6rem;
     font-weight: 100;
