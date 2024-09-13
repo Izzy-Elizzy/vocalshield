@@ -384,10 +384,12 @@ table {
 
   .bio-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr); /* Responsive columns */
+    grid-template-rows: 1fr;
     grid-gap: 20px;
     margin-top: 64px;
-    max-width: 1200px;
+    width: 100%;
+    height: 75vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -395,19 +397,20 @@ table {
   .bio-item {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     align-items: center;
+    max-height: 50vh;
   }
   
   .bio-pic {
     width: 100%;
     height: 0;
-    padding-bottom: 150%;
+    padding-bottom: 100%; /* Aspect ratio for the image */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
-    -webkit-filter: grayscale(90%);
+    -webkit-filter: grayscale(90%); /* Optional grayscale effect */
     margin-bottom: 1.6rem;
   }
   
@@ -427,6 +430,10 @@ table {
     background-image: url('../media/darrel.jpg');
   }
   
+  .dima-pic {
+    background-image: url('../media/dima.jpg');
+  }
+  
   .names {
     font-size: 2.4rem;
     font-weight: 100;
@@ -440,111 +447,11 @@ table {
     font-weight: 300;
     opacity: 70%;
   }
-  
-  @media (max-width: 1200px) {
-    .bio-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  
-    .bio-pic {
-      padding-bottom: 180%;
-      margin-bottom: 1.4rem;
-    }
-  
-    .names {
-      font-size: 2.2rem;
-      margin-bottom: 0.7rem;
-    }
-  
-    .bio-text {
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-  }
-  
+
   @media (max-width: 900px) {
     .bio-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .bio-pic {
-      padding-bottom: 200%;
-      margin-bottom: 1.2rem;
-    }
-  
-    .names {
-      font-size: 2rem;
-      margin-bottom: 0.6rem;
-    }
-  
-    .bio-text {
-      margin-top: 0.8rem;
-      font-size: 1rem;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .bio-container {
-      grid-template-columns: 1fr;
-    }
-  
-    .bio-pic {
-      padding-bottom: 150%;
-      margin-bottom: 1rem;
-    }
-  
-    .names {
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
-    }
-  
-    .bio-text {
-      margin-top: 0.6rem;
-      font-size: 0.9rem;
+      grid-template-columns: 1fr; /* Stack columns vertically on smaller screens */
     }
   }
 
   /* _______________________________________________________________ */
-
-  .bio-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
-    grid-gap: 20px;
-    margin-top: 64px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .bio-item {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .bio-pic {
-    width: 100%;
-    height: 0;
-    padding-bottom: 150%; /* Aspect ratio for the image */
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1rem;
-    -webkit-filter: grayscale(90%); /* Optional grayscale effect */
-    margin-bottom: 1.6rem;
-  }
-  
-  .names {
-    font-size: 2.4rem;
-    font-weight: 100;
-    margin-bottom: 0.8rem;
-  }
-  
-  .bio-text {
-    margin-top: 1.2rem;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    font-weight: 300;
-    opacity: 70%;
-  }

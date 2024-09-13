@@ -1,3 +1,4 @@
+//Uncommnet me to deploy!!!
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -7,6 +8,8 @@ const nextConfig = {
 /* module.exports = nextConfig*/
 export default nextConfig;
 
+
+//Uncomment me to develop!!!
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
 //   reactStrictMode: true,
