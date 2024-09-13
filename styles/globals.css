@@ -455,3 +455,14 @@ table {
   }
 
   /* _______________________________________________________________ */
+
+  .lab-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .lab-container h1 {
+    font-size: 10rem;
+  }
