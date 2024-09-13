@@ -463,6 +463,10 @@ table {
     align-content: center;
   }
 
-  .lab-container h1 {
-    font-size: 10rem;
+  .lab-container a {
+    font-size: 6.4rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: color 0.3s ease;
   }
