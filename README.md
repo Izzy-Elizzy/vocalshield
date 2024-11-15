@@ -10,8 +10,7 @@ This repository contains the source code for the VocalShield webpage, a user-fri
 - **Voice Alteration**: The uploaded voice data is processed using advanced techniques to modify it, preventing unauthorized cloning while maintaining the creator's vocal identity.
 - **User Dashboard**: Creators have access to a personalized dashboard where they can manage their protected voice assets, track usage, and configure settings.
 - **Platform Integration**: The VocalShield webpage provides APIs and documentation for seamless integration with popular content platforms like YouTube, Spotify, and Twitch.
-
-## Technologies Used
+- **Documentation**: Access the [User Manual - Lab 3 & Lab 4](https://github.com/Izzy-Elizzy/vocalshield/wiki/User-Manual) for detailed instructions and support.## Technologies Used
 
 - **Front-end**: React, React Native
 - **Back-end**: Flask
