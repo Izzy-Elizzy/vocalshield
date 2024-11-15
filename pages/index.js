@@ -1,5 +1,5 @@
 import { Montserrat } from "next/font/google";
-import Waves from "@/components/Waves";
+import Waves from "../components/Waves";
 import Hero from "@/components/Hero";
 import Header from "@/components/Header";
 
