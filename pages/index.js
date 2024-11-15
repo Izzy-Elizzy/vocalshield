@@ -14,11 +14,21 @@ export default function Home() {
                 <Hero />
 
                 <div style={{ textAlign: 'center', marginTop: '50px' }}>
+                    <h2>Team Members & Contributions</h2>
+                    <ul style={{ listStyleType: 'none', padding: 0 }}>
+                        <li>Durel - Lab 1</li>
+                        <li>Joshua - Lab 1</li>
+                        <li>Izzy - Lab 1</li>
+                        <li>Darrell - Lab 1</li>
+                        <li>Dima - Lab 1</li>
+                    </ul>
+                    <br />
+
                     <a
                         href="https://github.com/your-team-repo-url/wiki/User-Manual"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="nav-link" // Apply the same class as the other navigation links
+                        style={{ color: '#0070f3', textDecoration: 'none', fontSize: '20px' }}
                     >
                         User Manual - Lab 3 & Lab 4
                     </a>
