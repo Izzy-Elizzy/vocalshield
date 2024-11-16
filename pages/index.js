@@ -8,18 +8,18 @@ const mont = Montserrat({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="background">
-      <Waves/>
+      <Waves />
       <div className="padding-container">
-      <Header/>
-      <Hero/>
-      <a 
-                    href="https://github.com/Izzy-Elizzy/vocalshield/wiki/User-Manual" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    style={{ display: "block", marginTop: "20px", textAlign: "center", fontSize: "18px", color: "#0070f3", textDecoration: "none" }}
-                >
-                    User Manual - Lab 3 & Lab 4
-                </a>      <Hero/>
+        <Header />
+        <Hero />
+        <a
+          href="https://github.com/your-team-repo-url/wiki/User-Manual"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+        >
+          User Manual - Lab 3 & Lab 4
+        </a>
       </div>
     </div>
   );
