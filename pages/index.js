@@ -12,14 +12,7 @@ export default function Home() {
       <div className="padding-container">
       <Header/>
       <Hero/>
-      <a 
-                    href="https://github.com/Izzy-Elizzy/vocalshield/wiki/User-Manual" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    style={{ display: "block", marginTop: "20px", textAlign: "center", fontSize: "18px", color: "#0070f3", textDecoration: "none" }}
-                >
-                    User Manual - Lab 3 & Lab 4
-                </a>      <Hero/>
+     
       </div>
     </div>
   );
