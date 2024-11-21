@@ -6,6 +6,7 @@ export default function LabComponent() {
   return (
     <div className="lab-container">
       <a href="https://github.com/Izzy-Elizzy/vocalshield/wiki">Lab 3</a>
+      <br/>
       <a href="https://drive.google.com/file/d/1jrDeR96uo0VrBYgFQ2xhr-ljgunQagoT/view?usp=sharing">Durel Lab 1</a>
       <br/>
       <a href="https://drive.google.com/file/d/1qpVE0K76jVsmFGc9p2Ue1sz9tC7aPaan/view?usp=sharing">Joshua Lab 1</a>
