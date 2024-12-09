@@ -5,6 +5,8 @@ const mont = Montserrat({ subsets: ["latin"] });
 export default function LabComponent() {
   return (
     <div className="lab-container">
+      <a href="https://github.com/Izzy-Elizzy/f24-Ruby-1/wiki">Lab 4 - Wiki</a>
+      <br/>
       <a href="https://github.com/Izzy-Elizzy/vocalshield/wiki">Lab 3</a>
       <br/>
       <a href="https://drive.google.com/file/d/1jrDeR96uo0VrBYgFQ2xhr-ljgunQagoT/view?usp=sharing">Durel Lab 1</a>
